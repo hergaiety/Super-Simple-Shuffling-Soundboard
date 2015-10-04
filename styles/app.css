@@ -1,0 +1,24 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    padding: 2rem;
+}
+
+#stopAll {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+}
+
+.sounds button {
+    float: left;
+    margin-right: 1rem;
+}
+
+.sounds { clear: both; }
+
+.sounds.play button.pause { display: none; }
+
+.sounds.pause button.play { display: none; }
